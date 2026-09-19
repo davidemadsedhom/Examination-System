@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Examination_System.QuestionTypes
 {
-    internal class MCQ : Question
+    public class MCQ : Question
     {
         public MCQ(string header, string body, int mark) : base(header, body, mark)
         {

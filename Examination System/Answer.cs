@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Examination_System
 {
-    internal class Answer
+    public class Answer
     {
         public int AnswerId { get; set; }
         public string AnswerText { get; set; }

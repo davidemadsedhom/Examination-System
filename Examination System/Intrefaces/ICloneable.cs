@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Examination_System.Intrefaces
 {
-    internal interface ICloneable
+    public interface ICloneable
     {
         object Clone();
-        // عشان نعمل نسة من ال object اللي احنا عايزين نعمله clone
+        
     }
 }

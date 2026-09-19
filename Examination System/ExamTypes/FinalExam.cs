@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Examination_System.ExamTypes
 {
-    internal class FinalExam : Exam
+    public class FinalExam : Exam
     {
 
         public FinalExam(int time, int num) : base(time, num) { }

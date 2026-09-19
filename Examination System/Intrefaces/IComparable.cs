@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Examination_System.Intrefaces
 {
-    internal interface IComparable
+    public interface IComparable
     {
         int CompareTo(object obj);
     }
