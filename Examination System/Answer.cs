@@ -6,12 +6,18 @@ namespace Examination_System
 {
     internal class Answer
     {
-        int answerId;
-        string answerText;
+        public int AnswerId { get; set; }
+        public string AnswerText { get; set; }
+
+        public Answer(int id, string text)
+        {
+            AnswerId = id;
+            AnswerText = text;
+        }
 
         public override string ToString()
         {
-            return $"Answer ID: {answerId}, \nAnswer Text: {answerText}";
+            return $"Answer ID: {AnswerId}, \nAnswer Text: {AnswerText}";
         }
     }
 }
