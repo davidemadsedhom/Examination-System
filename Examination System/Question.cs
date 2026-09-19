@@ -4,9 +4,8 @@ using System.Text;
 
 namespace Examination_System
 {
-    internal enum TypeOfExsam
+    public abstract class  Question
     {
-        FinalExme,
-        PracticalExme,
+
     }
 }
