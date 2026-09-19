@@ -18,7 +18,8 @@ namespace Examination_System
             Mark = mark;
         }
 
-
+        public Answer[] AnswerList { get; set; }
+        public Answer RightAnswer { get; set; }
 
         public object Clone()
         {
