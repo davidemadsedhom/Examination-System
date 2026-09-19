@@ -8,5 +8,10 @@ namespace Examination_System
     {
         int answerId;
         string answerText;
+
+        public override string ToString()
+        {
+            return $"Answer ID: {answerId}, \nAnswer Text: {answerText}";
+        }
     }
 }
